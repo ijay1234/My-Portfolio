@@ -4,20 +4,20 @@ import Image from "next/image";
 export default function Home() {
   const projects = [
     {
-      name: "Ecommerce website",
-      description: "An Ecommerce website built with Next.js",
+      name: "Ecommerce Website",
+      description: "An Ecommerce website built with Next.js, TypeScript, and TailwindCSS",
       image: "/assets/Screenshot 2025-10-04 at 21.44.11.png",
       link: "https://ecommerce-website-production-b159.up.railway.app/",
     },
     {
       name: "Expense Tracker",
-      description: "Help to track Expense. This project was built with reactJs",
+      description: "Help to track Expense. This project was built with MongoDB, ExpressJs, ReactJs, NodeJs, TailwindCSS, and Redux",
       image: "/assets/Screenshot 2025-10-05 at 20.42.15.png",
       link: "https://expense-tracker-1-hs9t.onrender.com/",
     },
     {
-      name: "Project Three",
-      description: "A React & Tailwind portfolio website",
+      name: "Task App",
+      description: "A task app. This project was built with MongoDB, ExpressJs, ReactJs, NodeJs, TailwindCSS, and Redux",
       image: "/assets/Screenshot 2025-10-05 at 20.44.25.png",
       link: "https://task-app-7qx5.onrender.com/",
     },
@@ -67,7 +67,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition">
                 <h3 className="text-white text-xl font-bold">{project.name}</h3>
-                <p className="text-gray-200 mt-2">{project.description}</p>
+                <p className="text-gray-200 mt-2 text-center">{project.description}</p>
               </div>
             </a>
           ))}
@@ -80,19 +80,19 @@ export default function Home() {
         <p className="text-lg mb-6">Let&apos;s build something amazing together!</p>
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:preciousigbokwe377@gmail.com"
             className="px-6 py-3 border-2 border-white rounded-full hover:bg-white hover:text-purple-700 transition"
           >
             Email Me
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/ijeoma-igbokwe-55a441198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="px-6 py-3 border-2 border-white rounded-full hover:bg-white hover:text-purple-700 transition"
           >
             LinkedIn
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ijay1234"
             className="px-6 py-3 border-2 border-white rounded-full hover:bg-white hover:text-purple-700 transition"
           >
             GitHub
