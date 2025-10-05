@@ -1,25 +1,25 @@
 import Image from "next/image";
-import Ecomm from "../../public/assets/Screenshot 2025-10-04 at 21.44.11.png"
+
 
 export default function Home() {
   const projects = [
     {
       name: "Ecommerce website",
       description: "An Ecommerce website built with Next.js",
-      image: Ecomm,
+      image: "/assets/Screenshot 2025-10-04 at 21.44.11.png",
       link: "https://ecommerce-website-production-b159.up.railway.app/",
     },
     {
       name: "Expense Tracker",
       description: "Help to track Expense. This project was built with reactJs",
-      image: Ecomm,
+      image: "/assets/Screenshot 2025-10-05 at 20.42.15.png",
       link: "https://expense-tracker-1-hs9t.onrender.com/",
     },
     {
       name: "Project Three",
       description: "A React & Tailwind portfolio website",
-      image: "/project3.jpg",
-      link: "#",
+      image: "/assets/Screenshot 2025-10-05 at 20.44.25.png",
+      link: "https://task-app-7qx5.onrender.com/",
     },
   ];
 
