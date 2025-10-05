@@ -44,7 +44,7 @@ export default function Home() {
       <section id="about" className="max-w-5xl mx-auto py-24 px-4 text-center">
         <h2 className="text-4xl font-bold mb-6">About Me</h2>
         <p className="text-lg md:text-xl leading-relaxed">
-          I&apos;m a passionate frontend developer creating modern, responsive, and interactive web applications using React, Next.js, Redux, NodeJs, ExpressJs and Tailwind CSS. I love turning ideas into visually appealing and user-friendly digital experiences.
+          I&apos;m a passionate full-stack developer who builds modern, responsive, and interactive web applications using React, Next.js, Redux, Node.js, Express.js, and Tailwind CSS. I love turning ideas into visually appealing and user-friendly digital experiences.
         </p>
       </section>
 
