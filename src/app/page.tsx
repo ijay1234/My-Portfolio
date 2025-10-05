@@ -29,7 +29,7 @@ export default function Home() {
       <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-700 to-pink-500 text-white text-center px-4">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeIn">Hi, I&apos;m Ijeoma</h1>
         <p className="text-xl md:text-2xl mb-8 animate-fadeIn delay-200">
-          Frontend Developer | MERN stack & Next.js
+          Fullstack Developer | MERN stack & Next.js
         </p>
         <p className="text-lg mb-6">Let&apos;s build something amazing together!</p>
         <a
