@@ -27,10 +27,11 @@ export default function Home() {
     <div className="bg-gray-50 text-gray-900">
       {/* Hero Section */}
       <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-700 to-pink-500 text-white text-center px-4">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeIn">Hi, I'm Ijeoma</h1>
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeIn">Hi, I&apos;m Ijeoma</h1>
         <p className="text-xl md:text-2xl mb-8 animate-fadeIn delay-200">
-          Frontend Developer | React & Next.js
+          Frontend Developer | MERN stack & Next.js
         </p>
+        <p className="text-lg mb-6">Let&apos;s build something amazing together!</p>
         <a
           href="#projects"
           className="px-6 py-3 bg-white text-purple-700 font-semibold rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-1"
@@ -43,7 +44,7 @@ export default function Home() {
       <section id="about" className="max-w-5xl mx-auto py-24 px-4 text-center">
         <h2 className="text-4xl font-bold mb-6">About Me</h2>
         <p className="text-lg md:text-xl leading-relaxed">
-          I'm a passionate frontend developer creating modern, responsive, and interactive web applications using React, Next.js, and Tailwind CSS. I love turning ideas into visually appealing and user-friendly digital experiences.
+          I&apos;m a passionate frontend developer creating modern, responsive, and interactive web applications using React, Next.js, Redux, NodeJs, ExpressJs and Tailwind CSS. I love turning ideas into visually appealing and user-friendly digital experiences.
         </p>
       </section>
 
@@ -76,7 +77,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-24 px-4 text-center bg-gradient-to-r from-pink-500 to-purple-700 text-white">
         <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
-        <p className="text-lg mb-6">Let's build something amazing together!</p>
+        <p className="text-lg mb-6">Let&apos;s build something amazing together!</p>
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <a
             href="mailto:youremail@example.com"
